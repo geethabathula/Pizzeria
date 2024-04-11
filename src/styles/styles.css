@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,300;0,400;0,500;1,300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto Mono", sans-serif;
+  color: #252525;
+  font-weight: 400;
+  background-color: #f7f2e9;
+  min-height: 100vh;
+  /* padding: 3.2rem;
+  padding-bottom: 6rem; */
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.header-title-pizzeria {
+  font-family: "Bungee Spice", sans-serif;
+  font-weight: 700;
+  font-size: 5rem;
+  font-style: normal;
+}
+
+.header-subtitle {
+  height: 3rem;
+  width: 16rem;
+  font-size: 2rem;
+  text-align: center;
+  margin: 1rem;
+  border-top: 2px solid #252525;
+  border-bottom: 2px solid #252525;
+}
+
+.header-glance {
+  height: 2rem;
+  width: 80%;
+  font-size: 1rem;
+  text-align: center;
+  margin: 1rem;
+}
+
+.openclose {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+  font-weight: 2.5rem;
+}
+
+.pre-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.menu-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2.3rem;
+}
+
+.pizzamenu-layout {
+  height: 13rem;
+  width: 28rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  margin: 2rem;
+  padding: 2rem;
+}
+
+.pizza-image {
+  width: 8rem;
+  height: 7rem;
+  border-radius: 1rem;
+}
+
+.pizza-content {
+  height: 8rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  column-gap: 2rem;
+  font-size: 1rem;
+}
+
+ul {
+  list-style: none;
+}
+
+li:first-child {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+li:last-child {
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+
+.pizzamenu-layout.sold-out {
+  color: #888;
+}
+
+.pizzamenu-layout.sold-out img {
+  opacity: 0.5;
+  filter: grayscale(100%);
+}
+
+.order {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.4rem;
+}
+
+.btn {
+  color: inherit;
+  font-family: inherit;
+  border: none;
+  font-size: 1.4rem;
+  font-weight: 500;
+  background-color: #edc84b;
+  padding: 1.4rem 3.2rem;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.btn:hover {
+  background-color: #e9bb24;
+}
+
+.footer {
+  width: 100%;
+  text-align: center;
+  background-color: #edc74be7;
+  padding: 25px;
+  margin-top: 80px;
+  font-weight: 900;
+  font-size: 1.2rem;
+}
